@@ -6,6 +6,8 @@ namespace OpenTokWebNancy.Modules
     {
         protected override void ConfigureApplicationContainer(Nancy.TinyIoc.TinyIoCContainer container)
         {
+            StaticConfiguration.DisableErrorTraces = false;
+
             base.ConfigureApplicationContainer(container);
 
             container.Register<OpenTokService>().AsSingleton();
