@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OpenTokSDK</RootNamespace>
     <AssemblyName>OpenTok</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>671ed443</NuGetPackageImportStamp>
@@ -23,6 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\OpenTok.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\OpenTok.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -41,6 +43,9 @@
     <Reference Include="JWT, Version=2.3.2.0">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\JWT.2.3.2\lib\net45\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTok, Version=2.4.6541.21110, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTok.2.4.6\lib\net35\OpenTok.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
