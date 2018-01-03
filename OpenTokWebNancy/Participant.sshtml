@@ -28,9 +28,9 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Participant</h3>
             </div>
-            <div class="panel-body">
+            <!--<div class="panel-body">
                 <div id="subscribers"><div id="publisher"></div></div>
-            </div>
+            </div>-->
         </div>
     </div>
 
